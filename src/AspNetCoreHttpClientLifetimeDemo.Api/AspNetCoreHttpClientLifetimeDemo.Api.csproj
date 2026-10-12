@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>AspNetCoreHttpClientLifetimeDemo</RootNamespace>
+    <AssemblyName>AspNetCoreHttpClientLifetimeDemo.Api</AssemblyName>
+    <Authors>Muhammad Atif</Authors>
+    <Description>Demonstrates HTTP connection pooling and why HttpClient lifetime matters in ASP.NET Core.</Description>
+    <RepositoryUrl>https://github.com/atifch319/aspnetcore-httpclient-lifetime-demo</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,61 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Ll]og/
+[Ll]ogs/
+
+# Test results
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.*
+
+# Visual Studio / MSBuild
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pidb
+*.svclog
+*.scc
+*.cache
+
+# Rider / ReSharper / VS Code local state
+.idea/
+*.sln.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Local configuration and secrets
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.publishsettings
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# User-specific files
+*.rsuser
+*.user
+launchSettings.user.json
